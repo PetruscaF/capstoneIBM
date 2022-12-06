@@ -1,2 +1,2 @@
 # capstoneIBM
-Peer assignments to Capstone ptoject on IBM Data Science course 
+Peer assignments to Capstone project on IBM Data Science course 
