@@ -84,14 +84,14 @@ def get_scatter_chart(site_dropdown,payload_slider):
         fig = px.scatter(
         spacex_df[mask2], x='Payload Mass (kg)', y='class', 
         color="Booster Version Category", 
-        title='Corralation between Payload and Success for all sites',
+        title='Correlation between Payload and Success for all sites',
         hover_data=['Payload Mass (kg)'])
         return fig
     else:
         fig = px.scatter(
         filtered_df[mask], x='Payload Mass (kg)', y='class', 
         color="Booster Version Category",
-        title=f'Corralation between Payload and Success for {site_dropdown}',
+        title=f'Correlation between Payload and Success for {site_dropdown}',
         hover_data=['Payload Mass (kg)'])
         return fig
 
